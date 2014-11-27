@@ -7,6 +7,7 @@ latexfmt.pl is a program written by Andrew Stacey that can format latex source c
 
 lattexindent.py is to add indents so that sublime text can fold the source code.
 
-Example Usage:
+#Example Usage:#
+
 	latexfmt.pl -i 4 source.tex > target.tex
 	latexindent.py -i 4 target.tex > indentedtarget.tex
